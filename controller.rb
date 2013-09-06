@@ -13,3 +13,4 @@ end
 
 card_id = integer
 one_card = hash 
+values in hash = definition is a= string , answer is a  string, card_id is a integer
