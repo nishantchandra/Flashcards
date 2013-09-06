@@ -8,7 +8,7 @@ class View
 
   def show_card(one_card)
     self.current_card = one_card
-    puts current_card[:definition]
+    puts current_card[0]
   end
 
   def get_response
@@ -17,7 +17,7 @@ class View
   end
 
   def check_response
-    current_card[:answer] == response
+    current_card[1] == response
   end
 
   def output_result
